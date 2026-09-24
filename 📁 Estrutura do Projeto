@@ -1,0 +1,30 @@
+ficha-treinos/
+├── docs/                  📄 Os 6 documentos que criamos
+│   ├── PRD.md
+│   ├── TRD.md
+│   ├── FLUXO.md
+│   ├── UI_UX.md
+│   ├── BACKEND.md
+│   └── IMPLEMENTACAO.md
+├── backend/               ⚙️ FastAPI + Sincronização
+│   ├── main.py
+│   ├── models.py
+│   ├── auth.py
+│   ├── sync.py
+│   ├── database.py
+│   └── requirements.txt
+├── frontend/              🌐 React Web
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── tailwind.config.js
+├── mobile/                📱 React Native (Android/iOS)
+│   ├── App.js
+│   ├── package.json
+│   └── babel.config.js
+├── README.md
+└── INSTALACAO.md
