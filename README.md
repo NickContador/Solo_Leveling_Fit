@@ -10,7 +10,37 @@ Uma experiência fitness gamificada, inspirada na intensidade visual de animes d
 
 ## Executar localmente
 
+O frontend fica em `frontend/` (React + Vite):
+
 ```bash
+cd frontend
 npm install
 npm run dev
+```
+
+Acesse http://localhost:5173.
+
+Para gerar build de produção:
+
+```bash
+cd frontend
+npm run build
+```
+
+### Estrutura
+
+```
+Solo_Leveling_Fit/
+├── frontend/                ← React + Vite
+│   ├── src/
+│   │   ├── main.jsx         ← App (landing)
+│   │   ├── styles.css
+│   │   ├── gamification/    ← XP, Níveis, Ranks, Missões (Zustand)
+│   │   ├── academy_sync/    ← Parser da ficha da academia (texto/CSV/JSON)
+│   │   └── components/      ← HunterPanel, MissionCard
+│   ├── index.html
+│   └── package.json
+├── backend/                 ← FastAPI (SQLAlchemy)
+├── docs/                    ← Notas de integração
+└── README.md
 ```

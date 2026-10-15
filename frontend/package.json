@@ -1,0 +1,22 @@
+{
+  "name": "ascend-fit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Ascend Fit — experiência fitness gamificada (web, mobile e tablet)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^1.57.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^5.4.11"
+  }
+}

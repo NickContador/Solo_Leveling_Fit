@@ -1,4 +1,4 @@
-import type { AcademyExercise, ParseFormat } from './types';
+import type { AcademyExercise, ParseFormat, SyncedExercise } from './types';
 
 export const parseFicha = (content: string, format: ParseFormat = 'text'): AcademyExercise[] => {
   switch (format) {
